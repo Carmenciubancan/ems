@@ -1,20 +1,21 @@
 body {
-  background-color:	#808080;
+  background-color:#2F2F2F;
 }
 
 .system {
-  background-color:#E0FFFF;
+  background-color:#D3D3D3;
   width:650px;
   margin:0;
   border-radius:20px;
   text-align:left;
   margin:0 auto;
   padding: 20px 25px;
+  margin-top: 30px;
 
 }
 
 .data {
-  background-color:	#E0FFFF;
+  background-color:	#D3D3D3;
   width:670px;
   margin:0;
   border-radius:20px;
@@ -42,7 +43,7 @@ select {
 }
 
 span {
-  background-color:#90EE90;
+  background-color:#5cb85c;
   color:white;
   padding:10px;
   border-radius:5px;
@@ -53,7 +54,7 @@ span {
 
 
 button {
-    background-color:#90EE90 !important;
+    background-color:#5cb85c !important;
     color:white;
     padding:10px;
     border-radius:5px;
@@ -69,11 +70,3 @@ button {
   display: inline-flex;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-	}

@@ -10,10 +10,13 @@ $(document).ready(function(){
 
     newItem(idCounter, name, skill, title);
 
+    $('.say-yo').click(function(){
+      alert('yo!');
+    });
+
   });
 
 
-// bind event to button that might not be in the DOM
 $(document).on('click', '.fire-everyone', function(){
    $('.employer').not('.ceo').remove();
 });
@@ -26,7 +29,6 @@ var now = getCurrentDate();
 
 
 });
-
 
 
 
@@ -78,24 +80,4 @@ function getButtons(title){
   buttons += '</div>';
 
   return buttons;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function getCurrentDate(){
-    var fullDate = new Date();
-  var twoDigitMonth = ((fullDate.getMonth().length+1) === 1)? (fullDate.getMonth()+1) : '0' + (fullDate.getMonth()+1);
-   var currentDate = fullDate.getDate() + "/" + twoDigitMonth + "/" + fullDate.getFullYear();
-  return currentDate;
 }
