@@ -1,6 +1,7 @@
 $(document).ready(function(){
   var idCounter = 0;
 
+
 // bind event to button
   $('#addItem').on('click', function(){
     idCounter++;
